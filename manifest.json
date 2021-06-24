@@ -1,0 +1,12 @@
+{
+    "name" : "moodle Login Extension " , 
+     "version" : "1.0" , 
+     "manifest_version" : 2 , 
+     "content_scripts" : [
+       {
+           "matches" : ["https://moodle.iitd.ac.in/login/index.php"] , 
+           "js" : ["index.js"] , 
+           "run_at" : "document_idle"
+       }  
+     ]
+}
